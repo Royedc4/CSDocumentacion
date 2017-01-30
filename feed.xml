@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.3.1">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-01-29T21:06:42-04:00</updated><id>//</id><title type="html">CS IT-DOCS</title><subtitle>Asesores externos conforman Tecnologias. Aquí se unifica el conocimiento para tenerlo disponible.</subtitle><entry><title type="html">Manual Soporte Tecnico</title><link href="/documentacion/2017/01/15/manual-soporte.html" rel="alternate" type="text/html" title="&lt;DOC&gt; Manual Soporte Tecnico" /><published>2017-01-15T11:03:18-04:00</published><updated>2017-01-15T11:03:18-04:00</updated><id>/documentacion/2017/01/15/manual-soporte</id><content type="html" xml:base="/documentacion/2017/01/15/manual-soporte.html">&lt;h1 id=&quot;introducción&quot;&gt;INTRODUCCIÓN&lt;/h1&gt;
+&lt;p&gt;Tomando en cuenta que existe soporte de tecnologías externo es muy importante tener documentación de procesos, este documento pretende dar la pauta e introducir al equipo de tecnologías a los procesos frecuentes de la empresa.&lt;/p&gt;
+
+&lt;h4 id=&quot;mesa-de-ayuda-helpdesk---spiceworks&quot;&gt;MESA DE AYUDA (Helpdesk - spiceworks)&lt;/h4&gt;
+&lt;p&gt;En esta plataforma se llevan TODAS las novedades, trabajos, proyectos que ocurren en la empresa, inicialmente todo lleva su registro aquí.&lt;/p&gt;
+
+&lt;h4 id=&quot;hardware&quot;&gt;HARDWARE&lt;/h4&gt;
+&lt;p&gt;El Hardware de uso diario en la empresa(Computadores, Servidores, Impresoras, Baterias, Antenas, etc) se llevan en el inventario de Spiceworks.
+Todo lo demás, es decir, lo referente activos fijos y herramientas se llevara el control en el documento de excel IT Coservica.XLSX.&lt;/p&gt;
+
+&lt;h4 id=&quot;en-general&quot;&gt;En general&lt;/h4&gt;
+&lt;p&gt;Nuevos procesos, tutoriales y otros que se lleven a cabo en la empresa deben quedar documentados en PDF(Usando este documento como guía), en Video si es para usuarios finales, en caso contrario va documentado en la mesa de ayuda.
+Ademas se debe mantener la organización de archivos:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Carpeta privada
+Para todos los archivos de configuración, información y documentación técnica. Licencias entre otros.&lt;/li&gt;
+  &lt;li&gt;Carpeta compartida
+Para todos los archivos que se puedan necesitar desde las estaciones de trabajo y toda aquella documentación util para los usuarios finales.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;descripción-de-labor&quot;&gt;Descripción de labor&lt;/h1&gt;
+
+&lt;h4 id=&quot;función-principal&quot;&gt;Función principal&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Desarrollar y proponer nuevas tecnologías para optimizar las labores.&lt;/li&gt;
+  &lt;li&gt;Resolver de forma efectiva y agil las situaciones que se presenten.&lt;/li&gt;
+  &lt;li&gt;Dar soporte y preparar a recursos humanos en tecnologías.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;descripción-de-funciones&quot;&gt;Descripción de funciones&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Realizar implantación, seguimiento y mantenimiento programado de:
+    &lt;ul&gt;
+      &lt;li&gt;Estaciones de trabajo(Hardware-Software)&lt;/li&gt;
+      &lt;li&gt;Redes(Routers, Politicas)&lt;/li&gt;
+      &lt;li&gt;Sistemas y sus respaldos(Administrativos/MesaAyuda/Bases de datos)&lt;/li&gt;
+      &lt;li&gt;Active Directory(Windows Server)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Realizar los proyectos de erogaciones monetarias concernientes a la implantación de nuevas tecnologías.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;salario-estimado&quot;&gt;Salario estimado&lt;/h4&gt;
+&lt;p&gt;Depende de las capacidades verificables y apreciables de la persona. Reporta a:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gerencia Tecnologías y Gerencia general.&lt;/li&gt;
+  &lt;li&gt;Usando cualquier via pero siempre registrando en Mesa de ayuda.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;nueva-estación-de-trabajo&quot;&gt;Nueva Estación de trabajo&lt;/h1&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Instalación de Windwos y definir cuenta administrador local y reiniciar.
+    &lt;ol&gt;
+      &lt;li&gt;a1, s1(Previamente CSAdmin) y !!Adm99++&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Excluir kms pico, antivirus o antimalware.&lt;/li&gt;
+  &lt;li&gt;Instalación de la ultima versión de OFFICE disponibles acordes a las características del equipo.&lt;/li&gt;
+  &lt;li&gt;Activacion de Windwos y office instalando KMSpicoV10.20.Final&lt;/li&gt;
+  &lt;li&gt;Configurar red:
+    &lt;ol&gt;
+      &lt;li&gt;Verificar el documento llamado REDES , en excel. Ubicacion IT/CS/DOCUMENTS&lt;/li&gt;
+      &lt;li&gt;Definir dirección IP LOCAL tomando en cuenta las directrices de la red.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Asociar la estación al dominio, información relevante:
+    &lt;ol&gt;
+      &lt;li&gt;Nombre dominio: coservica.com.local&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Configurar permisos:
+    &lt;ol&gt;
+      &lt;li&gt;Agregar el grupo de administradores (CS.Administradores) al grupo de administradores del equipo local.&lt;/li&gt;
+      &lt;li&gt;En caso de que este presente, Eliminar a los usuarios del dominio del grupo de administradores del equipo.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Configurar software:
+    &lt;ol&gt;
+      &lt;li&gt;Activar las conexiones remotas para Administradores.&lt;/li&gt;
+      &lt;li&gt;Activar reglas de entrada en el firewall&lt;/li&gt;
+      &lt;li&gt;Activacion de asistencia remota(Estudiar Probar Aplicar)&lt;/li&gt;
+      &lt;li&gt;Programas que se instalan desde cuenta de administrador&lt;/li&gt;
+      &lt;li&gt;Impresora Canon&lt;/li&gt;
+      &lt;li&gt;Programas que se instalan desde cuenta de usuario&lt;/li&gt;
+      &lt;li&gt;Comunicaciones: Skype, Telegram, Whatsapp.&lt;/li&gt;
+      &lt;li&gt;Instalar PROFIT (Solamente aplica en CAJA por maquina fiscal)&lt;/li&gt;
+      &lt;li&gt;Ejecutar REGISTRO DLLS&lt;/li&gt;
+      &lt;li&gt;Ejecutar estaciones.exe
+        &lt;ol&gt;
+          &lt;li&gt;Configurar Base de datos.&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Crear acceso directo Lento y Remoto.&lt;/li&gt;
+      &lt;li&gt;Navegadores:Chrome, Firefox.&lt;/li&gt;
+      &lt;li&gt;Officina: Adobe Reader, PDFCreator.&lt;/li&gt;
+      &lt;li&gt;Otros: Wunderlist, VLC,  KeePass&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Conectar Carpetas compartidas como unidad de red
+    &lt;ol&gt;
+      &lt;li&gt;Documentar por usuario, que carpetas se asocian a que unidad&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;programas-nueva-estación-de-trabajo&quot;&gt;Programas Nueva Estación de trabajo&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Navegadores : Chrome, Firefox.&lt;/li&gt;
+  &lt;li&gt;Programas que se instalan desde cuenta de usuario&lt;/li&gt;
+  &lt;li&gt;Comunicaciones: Skype, Telegram, Whatsapp.&lt;/li&gt;
+  &lt;li&gt;ADOBE PDF, PDFCreator&lt;/li&gt;
+  &lt;li&gt;Office&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;configuración-antivirus&quot;&gt;Configuración antivirus&lt;/h4&gt;
+
+&lt;h5 id=&quot;avast&quot;&gt;Avast&lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;Haga clic en el botón de inicio de Windows, a continuación, programador de tareas – crear&lt;/li&gt;
+  &lt;li&gt;Nueva tarea&lt;/li&gt;
+  &lt;li&gt;Nombre: actualización programada para avast&lt;/li&gt;
+  &lt;li&gt;En Seguridad: Ejecutar tanto si el usuario inicio session o no
+    &lt;ol&gt;
+      &lt;li&gt;En la pestaña Desencadenadores se definira la fecha y hora de la descarga y actualización&lt;/li&gt;
+      &lt;li&gt;En la pestaña acciones vaya a la carpeta donde esta instalado el Avast y seleccione el fichero
+AvastEmUpdate.exe&lt;/li&gt;
+      &lt;li&gt;Se anexan seguidamente conexiones y configuración&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;antimalware&quot;&gt;Antimalware&lt;/h5&gt;
+&lt;ol&gt;
+  &lt;li&gt;Ejecute el programa&lt;/li&gt;
+  &lt;li&gt;Pestaña Configuración
+    &lt;ol&gt;
+      &lt;li&gt;Programación automatic&lt;/li&gt;
+      &lt;li&gt;Se definira fecha y hora de la actualización&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;mantenimientos-preventivos&quot;&gt;Mantenimientos Preventivos&lt;/h1&gt;
+&lt;h4 id=&quot;hardware-1&quot;&gt;HARDWARE&lt;/h4&gt;
+&lt;p&gt;Se llevan a cabo dos mantenimientos.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Llevada a cabo por usuarios finales(Frecuencia: Mensual).&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Limpieza de monitor:
+ Limpiar la pantalla y el filtro de la pantalla con un paño seco que no deje residuos ni pelusas.&lt;/li&gt;
+      &lt;li&gt;Limpieza De mouse:
+ Mantener siempre limpio el pad (almohadilla), quitar partículas que obstruyan el lente y sobre todo limpiar los ejes ó bases del mouse generalmente se adhieren muchas partículas a este.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Llevada a cabo por soporte tecnico.(Frecuencia: Semestral únicamente para almacén) &lt;a href=&quot;http://www.taringa.net/post/hazlo-tu-mismo/13700876/Como-hacer-un-full-mantenimiento-a-mi-pc-2016.html&quot; title=&quot;Ejemplo de mantenimiento completo&quot;&gt;Ejemplo de mantenimiento completo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TODO: Agregar imagenes &lt;code class=&quot;highlighter-rouge&quot;&gt;.Roy&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/pictures/Manual-soporte/Manilla Antiestatica.jpg&quot; alt=&quot;Manilla Antiestatica&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Desarmar el CPU, retirar cada pieza&lt;/li&gt;
+  &lt;li&gt;Extracción de polvo del CPU y Teclado usando Sopladora y brochas o cepillos de dientes.&lt;/li&gt;
+  &lt;li&gt;RAM: Limpiar con borrador y luego quitar residuos con cepillo.&lt;/li&gt;
+  &lt;li&gt;Tarjetas de Red: Limpiar con borrador y luego quitar residuos con cepillo.&lt;/li&gt;
+  &lt;li&gt;Tarjetas de Video: Limpiar con borrador y luego quitar residuos con cepillo&lt;/li&gt;
+  &lt;li&gt;Fan Coolers: Lubricación (incluyendo fuente de poder), usar lija suave para quitar corrosion.&lt;/li&gt;
+  &lt;li&gt;Limpiar slots con cepillo.&lt;/li&gt;
+  &lt;li&gt;Verificar y en su defecto colocar pasta térmica (Refrigerante)&lt;/li&gt;
+  &lt;li&gt;Desarmar y limpiar fuente de poder&lt;/li&gt;
+  &lt;li&gt;Finalizar con una capa SQ Electrónico.&lt;/li&gt;
+  &lt;li&gt;Colocar todo en su lugar y probar antes de colocarla en la estación de trabajo.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;software&quot;&gt;SOFTWARE&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Desinstalar complementos del navegador.&lt;/li&gt;
+  &lt;li&gt;Escaneo de Antivirus, posible uso de CCLEANER(u otros limpiadores de registro).&lt;/li&gt;
+  &lt;li&gt;Colaboración/Soporte en ordenar información en:
+    &lt;ol&gt;
+      &lt;li&gt;Carpeta del departamento en el servidor.&lt;/li&gt;
+      &lt;li&gt;Carpetas dentro del computador(Documentos, Escritorio)&lt;/li&gt;
+      &lt;li&gt;Mantener limpio descargas.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;implementación-de-asistencia-remota-de-windows-por-gpo&quot;&gt;IMPLEMENTACIÓN DE ASISTENCIA REMOTA DE WINDOWS POR GPO&lt;/h1&gt;
+&lt;p&gt;Para configurar la directiva de asistencia remota, se debe en primer lugar conocer el grupo de seguridad de Active Directory que podrá ejecutarla. Este debería incluir a los miembros del soporte técnico de la empresa.&lt;/p&gt;
+
+&lt;p&gt;La primera directiva a utilizar es: “Configuración del equipo” –&amp;gt; “Directivas” -&amp;gt; “Plantillas Administrativas” -&amp;gt; “Sistema -&amp;gt; “Asistencia remota” -&amp;gt; “Configurar ofrecer asistencia remota”. En la opción “Ayudantes” se incluyen los grupos del Directorio Activo que pueden utilizar la Asistencia Remota. En el caso nuestro será “TE1-WIN10 y TE2-WIN10”, que contiene las cuentas de los técnicos informáticos.&lt;/p&gt;
+
+&lt;p&gt;También es necesario configurar la directiva “Configuración del equipo” –&amp;gt; “Directivas” -&amp;gt; “Configuración de Windows” -&amp;gt; “Configuración de seguridad” -&amp;gt; “Directivas locales” -&amp;gt; “Opciones de seguridad” -&amp;gt; “Control de cuentas de usuario: Permitir que las aplicaciones UIAccess pidan confirmación de elevación sin usar el escritorio seguro”. Como su nombre indica, las peticiones de elevación de privilegios no se realizarán en modo de escritorio seguro, lo que impediría que el técnico que da soporte con la Asistencia remota de Windows pudiera aceptar las peticiones de elevación de privilegios en las acciones que lo requieran.&lt;/p&gt;
+
+&lt;p&gt;En el equipo cliente se abre el intérprete de comandos cmd y escribir gpupdate /force.&lt;/p&gt;</content><author><name>Roy Calderon</name></author><summary type="html">INTRODUCCIÓN
+Tomando en cuenta que existe soporte de tecnologías externo es muy importante tener documentación de procesos, este documento pretende dar la pauta e introducir al equipo de tecnologías a los procesos frecuentes de la empresa.</summary></entry><entry><title type="html">Congelados (a Futuro)</title><link href="/proyecto/2017/01/15/congelados-a-futuro.html" rel="alternate" type="text/html" title="&lt;Proyecto&gt; Congelados (a Futuro)" /><published>2017-01-15T11:03:18-04:00</published><updated>2017-01-15T11:03:18-04:00</updated><id>/proyecto/2017/01/15/congelados-a-futuro</id><content type="html" xml:base="/proyecto/2017/01/15/congelados-a-futuro.html">&lt;p&gt;A continuación proyectos pendientes &lt;code class=&quot;highlighter-rouge&quot;&gt;A FUTURO&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;impresion-de-facturas-profit-usando-conexiones-lentas&quot;&gt;&lt;strong&gt;IMPRESION DE FACTURAS PROFIT USANDO CONEXIONES LENTAS&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Proyectos-Congelados/Errores-Impresion-PROFIT.png&quot; alt=&quot;Errores-Impresion-PROFIT&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;PROFIT no puede imprimir cuando la VPN usa INTERNET&lt;/code&gt;. Cuando usa las antenas no hay novedad.&lt;/p&gt;
+
+&lt;p&gt;En detalle el problema radica en que &lt;strong&gt;el internet es muy lento&lt;/strong&gt;, adicionalmente PROFIT envia muchos datos innecesarios, al final la conexion se pierde por tiempo esperado transcurrido.&lt;/p&gt;
+
+&lt;p&gt;Ronald conoce un experto en maquinas fiscales. En conjunto con Expertos en PROFIT se puede desarrollar una solución para imprimir, controlando la excepcion del tiempo de espera.&lt;/p&gt;
+
+&lt;h1 id=&quot;varias-actividades&quot;&gt;&lt;strong&gt;VARIAS ACTIVIDADES&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;h4 id=&quot;nomina-y-contabilidad-refrisol-y-social-estrategia&quot;&gt;NOMINA Y CONTABILIDAD REFRISOL Y SOCIAL ESTRATEGIA&lt;/h4&gt;
+&lt;p&gt;Pendiente por temas de recurso humano y licenciamiento PROFIT&lt;/p&gt;
+
+&lt;h4 id=&quot;limpiar-el-servidor-fisicamente&quot;&gt;LIMPIAR EL SERVIDOR FISICAMENTE&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Posible Consultor: GuillermoJaimes_4147076993, RonaldEscalona Se ensucio con la adecuacion de la nueva oficina
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;refrisol-alerta-de-energia-electrica&quot;&gt;REFRISOL: ALERTA DE ENERGIA ELECTRICA&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Posible Consultor: JoseAli_414-7160930
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;En previas pruebas &lt;code class=&quot;highlighter-rouge&quot;&gt;SE APAGARON LOS SERVIDORES Y LA MAQUINA DE DUVIN&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;documentar-camaras&quot;&gt;DOCUMENTAR CAMARAS&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Posible Consultor: Daniela, Ricardo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;documentar-profit&quot;&gt;DOCUMENTAR PROFIT&lt;/h4&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Posible Consultor: Leonardo Nieto
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><author><name>Roy Calderon</name></author><summary type="html">A continuación proyectos pendientes A FUTURO.
+
+IMPRESION DE FACTURAS PROFIT USANDO CONEXIONES LENTAS</summary></entry><entry><title type="html">Actividades con personal Outsourcing</title><link href="/proyectos/2017/01/15/requerimientos.html" rel="alternate" type="text/html" title="&lt;Proyecto&gt; Actividades con personal Outsourcing" /><published>2017-01-15T11:03:18-04:00</published><updated>2017-01-15T11:03:18-04:00</updated><id>/proyectos/2017/01/15/requerimientos</id><content type="html" xml:base="/proyectos/2017/01/15/requerimientos.html">&lt;h1 id=&quot;requermientos-de-personal-outsourcing&quot;&gt;Requermientos de Personal Outsourcing&lt;/h1&gt;
+
+&lt;h2 id=&quot;josé-ali--414-7160930&quot;&gt;José Ali | 414-7160930&lt;/h2&gt;
+&lt;p&gt;Electricista, que actualmente realiza la reparación y mantenimiento de las impresoras en Compresores Servicios, ademas de eso el se encarga de algunas reparaciones de equipos en la empresa.&lt;/p&gt;
+
+&lt;h6 id=&quot;requerimientos&quot;&gt;Requerimientos&lt;/h6&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Actualmente tiene 2 cámaras amcrest tipo domo que no encendían, son de la sucursal Valencia. 
+S/N: 112360004, 112360004&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Realizo la reparación del DVR AYU 32ES (actualmente en funcionamiento), para lo cual el debió cambiar la tarjeta por completo. Por lo tanto se le solicito regresar la tarjeta dañada como verificación de esta reparación.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;yohany-contreras--412-5229131&quot;&gt;Yohany Contreras | 412-5229131&lt;/h2&gt;
+&lt;p&gt;Técnico en reparación de computadoras, ademas posible encargado de realizar la instalación de racks.&lt;/p&gt;
+
+&lt;h6 id=&quot;requerimientos-1&quot;&gt;Requerimientos&lt;/h6&gt;
+&lt;ol&gt;
+  &lt;li&gt;Actualmente Yohany tiene una serie de equipos a reparar se le indico que debe informar a gerencia cuando finalice la reparación de los mismos.
+El archivo se encuentra en:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CSSC-SRV\IT\PAGINA_DOCUMENTACION\tecnologias\assets\documentos\Reparacion.xlsx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;walter-guerra--426-2718230&quot;&gt;Walter Guerra | 426-2718230&lt;/h2&gt;
+&lt;p&gt;Técnico en redes de computadoras, encargado mantener encendidas en dos de las antenas que forman el circuito que conecta a las sucursales de Compresores Servicios Sede Principal y Sede Tariba. Las antenas son NanoBride M5 y físicamente se encuentran en Bella vista, Tucape.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Antenas
+&lt;img src=&quot;../../../../assets\screenshots\Requerimientos\1.png&quot; alt=&quot;CSBO - CSTA&quot; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&quot;requerimientos-2&quot;&gt;Requerimientos&lt;/h6&gt;
+&lt;p&gt;~~ 1. El 2/12/16 una de las antenas que forma este enlace (AP-C) fallo, de modo que fue necesario reemplazarla por una nueva, Walter reviso y arreglo el fallo de la antena reemplazada y aun esta pendiente la devolución de la misma.
+S/N: 1242KDC9FDB2CEB91 ~~&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entregada:&lt;/strong&gt; La antena fue entregada y funciono por al menos un día en la posición AP-A (referencia imagen anterior), es necesario verificar si la falla es directamente la antena o un cable defectuoso de red en la sucursal Tariba.&lt;/p&gt;
+
+&lt;h2 id=&quot;rubén-rojas--416-6028682&quot;&gt;Rubén Rojas | 416-6028682&lt;/h2&gt;
+&lt;p&gt;Trabajador en la empresa CANTV, principal contacto para el proyecto de conexión METRO. Se debe ser insistente para que este proyecto tenga un avance.&lt;/p&gt;
+
+&lt;h6 id=&quot;requerimientos-3&quot;&gt;Requerimientos&lt;/h6&gt;
+&lt;ol&gt;
+  &lt;li&gt;METRO, el estado actual de este proyecto aun esta en una solicitud, debido a problemas de falta de equipos, por lo tanto CANTV no ha logrado hacer esta instalación, en una ultima conversación con Rubén comento que este proyecto debería comenzar cuando lleguen los equipos necesarios, aun tenemos 7 instalaciones por delante. Rubén estimo que este proyecto debería arrancar a comienzos de marzo.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Asdrubal Santander</name></author><summary type="html">Requermientos de Personal Outsourcing
+
+José Ali | 414-7160930
+Electricista, que actualmente realiza la reparación y mantenimiento de las impresoras en Compresores Servicios, ademas de eso el se encarga de algunas reparaciones de equipos en la empresa.
+
+Requerimientos
+
+  
+    Actualmente tiene 2 cámaras amcrest tipo domo que no encendían, son de la sucursal Valencia. 
+S/N: 112360004, 112360004
+  
+  
+    Realizo la reparación del DVR AYU 32ES (actualmente en funcionamiento), para lo cual el debió cambiar la tarjeta por completo. Por lo tanto se le solicito regresar la tarjeta dañada como verificación de esta reparación.
+  
+
+
+Yohany Contreras | 412-5229131
+Técnico en reparación de computadoras, ademas posible encargado de realizar la instalación de racks.
+
+Requerimientos
+
+  Actualmente Yohany tiene una serie de equipos a reparar se le indico que debe informar a gerencia cuando finalice la reparación de los mismos.
+El archivo se encuentra en:
+
+
+CSSC-SRV\IT\PAGINA_DOCUMENTACION\tecnologias\assets\documentos\Reparacion.xlsx
+
+
+
+Walter Guerra | 426-2718230
+Técnico en redes de computadoras, encargado mantener encendidas en dos de las antenas que forman el circuito que conecta a las sucursales de Compresores Servicios Sede Principal y Sede Tariba. Las antenas son NanoBride M5 y físicamente se encuentran en Bella vista, Tucape.
+
+
+  Antenas
+
+
+
+Requerimientos
+~~ 1. El 2/12/16 una de las antenas que forma este enlace (AP-C) fallo, de modo que fue necesario reemplazarla por una nueva, Walter reviso y arreglo el fallo de la antena reemplazada y aun esta pendiente la devolución de la misma.
+S/N: 1242KDC9FDB2CEB91 ~~
+
+Entregada: La antena fue entregada y funciono por al menos un día en la posición AP-A (referencia imagen anterior), es necesario verificar si la falla es directamente la antena o un cable defectuoso de red en la sucursal Tariba.
+
+Rubén Rojas | 416-6028682
+Trabajador en la empresa CANTV, principal contacto para el proyecto de conexión METRO. Se debe ser insistente para que este proyecto tenga un avance.
+
+Requerimientos
+
+  METRO, el estado actual de este proyecto aun esta en una solicitud, debido a problemas de falta de equipos, por lo tanto CANTV no ha logrado hacer esta instalación, en una ultima conversación con Rubén comento que este proyecto debería comenzar cuando lleguen los equipos necesarios, aun tenemos 7 instalaciones por delante. Rubén estimo que este proyecto debería arrancar a comienzos de marzo.</summary></entry><entry><title type="html">Organización e Instalación de Racks</title><link href="/proyecto/2017/01/15/organizacion-instalacion-racks.html" rel="alternate" type="text/html" title="&lt;Proyecto&gt; Organización e Instalación de Racks" /><published>2017-01-15T11:03:18-04:00</published><updated>2017-01-15T11:03:18-04:00</updated><id>/proyecto/2017/01/15/organizacion-instalacion-racks</id><content type="html" xml:base="/proyecto/2017/01/15/organizacion-instalacion-racks.html">&lt;p&gt;Racks para ser instalados en Compresores Servicios sucursal Tariba (CSTA01) y el Galpón la concordia (RSLC02). La función principal de estos racks sera la organización de los equipos.&lt;/p&gt;
+
+&lt;h2 id=&quot;posición-actual-de-los-racks&quot;&gt;Posición actual de los racks&lt;/h2&gt;
+&lt;p&gt;Actualmente las piezas de los racks están en la sucursal principal de Compresores Servicios, específicamente en el 3er piso, en los estantes en el fondo, en las siguientes imágenes se tratara de ubicar estas piezas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Partes
+&lt;img src=&quot;../../../../assets\screenshots\Racks\5.jpg&quot; alt=&quot;Partes&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Piezas: Ventilador, Bandeja, Regleta, Pieza faltante (CSTA01)
+&lt;img src=&quot;../../../../assets\screenshots\Racks\2.jpg&quot; alt=&quot;Piezas&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bandejas (RSLC02)
+&lt;img src=&quot;../../../../assets\screenshots\Racks\6.jpg&quot; alt=&quot;Bandejas&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bandeja Teclado y Monitor (RSLC02)
+&lt;img src=&quot;../../../../assets\screenshots\Racks\7.jpg&quot; alt=&quot;Bandeja&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bases (RSLC02)
+&lt;img src=&quot;../../../../assets\screenshots\Racks\8.jpg&quot; alt=&quot;Bases&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rack Gabinete (CSTA01) y barras Laterales (RSLC02)
+&lt;img src=&quot;../../../../assets\screenshots\Racks\9.jpg&quot; alt=&quot;Bases&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Rack Gabinete
+&lt;img src=&quot;../../../../assets\screenshots\Racks\10.jpg&quot; alt=&quot;Rack Gabinete&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;instalación&quot;&gt;Instalación&lt;/h2&gt;
+
+&lt;h3 id=&quot;csta01-compresores-servicios-tariba&quot;&gt;CSTA01 (Compresores Servicios Tariba)&lt;/h3&gt;
+
+&lt;h4 id=&quot;partes&quot;&gt;Partes:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Gabinete cerrado 11RU 53X57X56 (ancho, alto y largo) Puerta Vidrio Negro&lt;/li&gt;
+  &lt;li&gt;Bandeja Monitor&lt;/li&gt;
+  &lt;li&gt;Ventilador para Gabinete de 15A&lt;/li&gt;
+  &lt;li&gt;Regleta Para Rack de 8 Tomas de 15amp&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;posicionamiento-del-rack-en-la-sucursal-tariba&quot;&gt;Posicionamiento del Rack en la sucursal Tariba&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Racks\1.png&quot; alt=&quot;Instalación&quot; /&gt;
+&lt;em&gt;Los rectángulos representan el mobiliario de la sucursal&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: Es el mejor lugar para instalar el Rack&lt;/p&gt;
+
+&lt;h4 id=&quot;situación-case&quot;&gt;Situación Case&lt;/h4&gt;
+&lt;p&gt;Actualmente el Gateway necesita una pieza para asegurar las NIC’s de forma tal que estas no se muevan pudiendo generar una perdida de la conexión o una falla en el hardware.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Racks\3.png&quot; alt=&quot;Pieza Faltante&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Una pieza que posiblemente encaje en el case del gateway sera colocada en el estante.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;contactos&quot;&gt;Contactos&lt;/h4&gt;
+&lt;p&gt;Jean Carlos | Gerente Sucursal | 0414-7540654
+Jhonny | Maestro de Obra | 0414 7083087&lt;/p&gt;
+
+&lt;h4 id=&quot;recomendaciones-para-la-instalación&quot;&gt;Recomendaciones para la Instalación&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;En la base del Rack de gabinete colocar el Gateway&lt;/li&gt;
+  &lt;li&gt;Dividir el gabinete con la Bandeja Monitor, en esta colocar DVR y demás dispositivos&lt;/li&gt;
+  &lt;li&gt;Buscar tornillos especiales para empotrar el gabinete&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rslc02-galpon-compresores-servicios&quot;&gt;RSLC02 (Galpon Compresores Servicios)&lt;/h3&gt;
+
+&lt;h4 id=&quot;partes-1&quot;&gt;Partes&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Dos Barras Laterales&lt;/li&gt;
+  &lt;li&gt;Dos Bases&lt;/li&gt;
+  &lt;li&gt;Tornillos&lt;/li&gt;
+  &lt;li&gt;Una Bandeja monitor 19X12&lt;/li&gt;
+  &lt;li&gt;Una Bandeja servidor 19X19&lt;/li&gt;
+  &lt;li&gt;Una Bandeja de Teclado y Mouse Negra&lt;/li&gt;
+  &lt;li&gt;Dos placas superiores para ajuste&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;posicionamiento-del-rack-en-la-oficina-del-galpón&quot;&gt;Posicionamiento del Rack en la oficina del Galpón&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Racks\4.png&quot; alt=&quot;Instalación&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A&lt;/strong&gt;: El mejor lugar en cual se puede instalar el Rack de 2,10&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;: En este espacio se encuentran:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;El Gateway RSLC02&lt;/li&gt;
+  &lt;li&gt;El DVR&lt;/li&gt;
+  &lt;li&gt;El módem de CANTV&lt;/li&gt;
+  &lt;li&gt;Un access point&lt;/li&gt;
+  &lt;li&gt;Teclado y Mouse&lt;/li&gt;
+  &lt;li&gt;Un Monitor acoplado a la pared&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;contactos-1&quot;&gt;Contactos&lt;/h4&gt;
+&lt;p&gt;Yolanda | Gerente Refrisol |  0424-7696982
+Jhonny | Maestro de Obra | 0414 7083087&lt;/p&gt;
+
+&lt;h4 id=&quot;recomendaciones-para-la-instalación-1&quot;&gt;Recomendaciones para la Instalación&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sera necesario mover el cableado de las cámaras y la conexión de ABA, para que estas lleguen al DVR en la posición &lt;strong&gt;A&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Solicitar un Regulador del deposito de informática para realizar las conexiones&lt;/li&gt;
+  &lt;li&gt;Buscar tornillos especiales luego de la perforación en la cerámica&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;documentación&quot;&gt;Documentación&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Debe dejar etiquetas o similar para identificar cables y puntos, así como dejar algún documento que resuma el trabajo realizado.&lt;/li&gt;
+  &lt;li&gt;Se tomaran fotos al finalizar para corroborar que fueron instaladas.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;electricidad&quot;&gt;Electricidad&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Debe estar aterrada&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cableado&quot;&gt;Cableado&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Se debe ordenar el mismo (Identificación y señalización)&lt;/li&gt;
+  &lt;li&gt;Se debe mantener la categoría de la red.&lt;/li&gt;
+  &lt;li&gt;No deben usarse uniones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;posición&quot;&gt;Posición&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Confirmar con gerencia la posición en la cual quedara cada uno de los racks.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Roy Calderón</name></author><summary type="html">Racks para ser instalados en Compresores Servicios sucursal Tariba (CSTA01) y el Galpón la concordia (RSLC02). La función principal de estos racks sera la organización de los equipos.</summary></entry><entry><title type="html">Instalación de aislante antenas Palo Gordo</title><link href="/proyecto/2017/01/15/antena-palogordo.html" rel="alternate" type="text/html" title="&lt;PROYECTO&gt; Instalación de aislante antenas Palo Gordo" /><published>2017-01-15T05:03:18-04:00</published><updated>2017-01-15T05:03:18-04:00</updated><id>/proyecto/2017/01/15/antena-palogordo</id><content type="html" xml:base="/proyecto/2017/01/15/antena-palogordo.html">&lt;p&gt;Estas antenas forman parte de la conexión entre sucursales de la empresa Compresores Servicios, específicamente Barrio Obrero y Tariba. En un transcurso de 3 meses las antenas han presentado mas de 7 fallas eléctricas relacionadas con un PowerHouse y una Batería. Para mejorar esta situación el proyecto es colocar un &lt;strong&gt;aislante&lt;/strong&gt; de calor entre el techo y los equipos mencionados, de esta manera se espera mejorar la la vida útil de la pila.&lt;/p&gt;
+
+&lt;h2 id=&quot;ubicación-de-las-antenas&quot;&gt;Ubicación de las antenas&lt;/h2&gt;
+&lt;p&gt;Las antenas se encuentran ubicadas en Palo Gordo, Urbanización altos de Gallardin, Final de la calle principal, Doblar derecha continuar hasta la calle ciega, a la derecha se encuentra la casa del Sr. Abelino.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Palo-Gordo-Antenas\1.png&quot; alt=&quot;Ubicación&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contactos&quot;&gt;Contactos&lt;/h2&gt;
+&lt;p&gt;Jhonny | Maestro de Obra | 0414 7083087
+Jean Carlos | Gerente Sucursal Tariba | 0414-7540654&lt;/p&gt;</content><author><name>Asdrubal Santander, Roy Calderon</name></author><summary type="html">Estas antenas forman parte de la conexión entre sucursales de la empresa Compresores Servicios, específicamente Barrio Obrero y Tariba. En un transcurso de 3 meses las antenas han presentado mas de 7 fallas eléctricas relacionadas con un PowerHouse y una Batería. Para mejorar esta situación el proyecto es colocar un aislante de calor entre el techo y los equipos mencionados, de esta manera se espera mejorar la la vida útil de la pila.
+
+Ubicación de las antenas
+Las antenas se encuentran ubicadas en Palo Gordo, Urbanización altos de Gallardin, Final de la calle principal, Doblar derecha continuar hasta la calle ciega, a la derecha se encuentra la casa del Sr. Abelino.
+
+
+
+Contactos
+Jhonny | Maestro de Obra | 0414 7083087
+Jean Carlos | Gerente Sucursal Tariba | 0414-7540654</summary></entry><entry><title type="html">Como agregar documentacion</title><link href="/inicio/2017/01/14/inicio.html" rel="alternate" type="text/html" title="&lt;DOC&gt; Como agregar documentacion" /><published>2017-01-14T11:03:18-04:00</published><updated>2017-01-14T11:03:18-04:00</updated><id>/inicio/2017/01/14/inicio</id><content type="html" xml:base="/inicio/2017/01/14/inicio.html">&lt;p&gt;En esta documentación se podra agregar codigo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;c1&quot;&gt;-- Getting Form Value&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;t_canBultos&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;thisform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t_bulto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;sql_con&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;UPDATE not_dep SET comentario=?ALLTRIM(STR(t_canBultos)) WHERE fact_num=?load_fact_num&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;tresult1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sqlexec&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tconnect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sql_con&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;If&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mensaje_sql&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tresult1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;:.: Proceso Lista Empaque  --&amp;gt; ERROR!!!! :: Dpto Informatica :) :: Compresores Servicios :.:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;Error sql Actualizando&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;Return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;F&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;messagebox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;:.: Proceso Lista Empaque  --&amp;gt; COMPLETADO :.:&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;&quot;Dpto Informatica :) :: Compresores Servicios::&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;ENDIF&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Notas, Comentarios, casi cualquier cosa…&lt;/p&gt;
+
+&lt;p&gt;La idea es documentar todo lo relacionado al departamento de forma de que sea accesible para cualquier asesor.&lt;/p&gt;
+
+&lt;p&gt;Probablemente si estas leyendo esto, ya estas invitado al repositorio privado.&lt;/p&gt;
+
+&lt;p&gt;Simplemente debes hacer las modificaciones en los posts y hacer commit al terminar.&lt;/p&gt;
+
+&lt;h1 id=&quot;como-escribir-la-documentación&quot;&gt;Como escribir la documentación&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A continuación algunas notas de formato basicas para continuar el desarrollo de la documentación. &lt;code class=&quot;highlighter-rouge&quot;&gt;Roy&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;listas&quot;&gt;Listas&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. UNO
+    * DOS 
+        * TRES
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;UNO
+    &lt;ul&gt;
+      &lt;li&gt;DOS
+        &lt;ul&gt;
+          &lt;li&gt;TRES&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;formato&quot;&gt;Formato&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Negrita con **asteriscos**
+Tachado con dos tildes. ~~Ejemplo Tachado~~
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Negrita con &lt;strong&gt;asteriscos&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tachado con dos tildes. &lt;del&gt;Ejemplo Tachado&lt;/del&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;comentarios&quot;&gt;Comentarios&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; Este es el comentario `Y quien lo escribio`
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Este es el comentario &lt;code class=&quot;highlighter-rouge&quot;&gt;Y quien lo escribio&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.compresoresservicios.com&quot; title=&quot;Pagina Compresores&quot;&gt;Esto es un link a CompresoresServicios.com&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Esto es un link a CompresoresServicios.com](https://www.compresoresservicios.com &quot;Pagina Compresores&quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;titulos-y-subtitulos&quot;&gt;Titulos y subtitulos&lt;/h2&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# Erase
+## Una
+### Vez
+#### Un
+##### Barco
+###### Chiquito
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h1 id=&quot;erase&quot;&gt;Erase&lt;/h1&gt;
+&lt;h2 id=&quot;una&quot;&gt;Una&lt;/h2&gt;
+&lt;h3 id=&quot;vez&quot;&gt;Vez&lt;/h3&gt;
+&lt;h4 id=&quot;un&quot;&gt;Un&lt;/h4&gt;
+&lt;h5 id=&quot;barco&quot;&gt;Barco&lt;/h5&gt;
+&lt;h6 id=&quot;chiquito&quot;&gt;Chiquito&lt;/h6&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Para observar mas ejemplos simplemente observe el resto de la documentación. &lt;code class=&quot;highlighter-rouge&quot;&gt;Roy&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Roy Calderon</name></author><summary type="html">En esta documentación se podra agregar codigo:</summary></entry><entry><title type="html">Gateways</title><link href="/documentacion/2017/01/14/gateways.html" rel="alternate" type="text/html" title="&lt;DOC&gt; Gateways" /><published>2017-01-14T05:03:18-04:00</published><updated>2017-01-14T05:03:18-04:00</updated><id>/documentacion/2017/01/14/gateways</id><content type="html" xml:base="/documentacion/2017/01/14/gateways.html">&lt;h1 id=&quot;gateways&quot;&gt;Gateways&lt;/h1&gt;
+&lt;p&gt;Los Gateways o Puertas de Enlace, son la conexión primaria entre cada una de las empresas asociadas que se encuentren en diferentes localidades. Por lo tanto los cambios que se realicen en estos deberán ser acordes a cada sucursal.&lt;/p&gt;
+
+&lt;h2 id=&quot;las-funciones-principales-son&quot;&gt;Las funciones principales son:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Regular el Internet para que sea utilizado solo en forma productiva para la empresa&lt;/li&gt;
+  &lt;li&gt;Realizar una conexión virtual privada (VPN) entre sucursales&lt;/li&gt;
+  &lt;li&gt;Monitoreo de las conexiones entrantes y salientes de cada sucursal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;en-el-conjunto-de-empresas-de-compresores-existen-estos-gateways&quot;&gt;En el conjunto de empresas de compresores existen estos Gateways:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;compresores-servicios---principal&quot;&gt;Compresores Servicios - Principal:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; CSBO01
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.10.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.10.254:81&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;compresores-servicios---tariba&quot;&gt;Compresores Servicios - Tariba:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; CSTA01
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.12.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.12.254:81&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;compresores-servicios---valencia&quot;&gt;Compresores Servicios - Valencia:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; CSVA01
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.15.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.15.254:81&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;refrisol---principal&quot;&gt;Refrisol - Principal:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; RSLC01
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.13.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.13.254:81&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;refrisol---galpón&quot;&gt;Refrisol - Galpón:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; RSLC02
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.14.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.14.254:81&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h5 id=&quot;social-estrategia&quot;&gt;Social Estrategia:&lt;/h5&gt;
+    &lt;p&gt;&lt;strong&gt;Nombre:&lt;/strong&gt; SEBO01
+&lt;strong&gt;IP interna:&lt;/strong&gt; 192.168.11.254
+&lt;strong&gt;URL:&lt;/strong&gt; https://192.168.11.254:81&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;desbloquear-una-url&quot;&gt;Desbloquear una URL:&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Esto no aplica a SEBO01 ya que ellos no tienen ningún tipo de bloqueo&lt;/em&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ingresar en el Gateway al cual se le quiere desbloquear la URL &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\1.png&quot; alt=&quot;Ingresar&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seguir la ruta:&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;Gateway -&amp;gt; Content Filter and Proxy -&amp;gt; Content Filter Engine &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\2.png&quot; alt=&quot;Conten Filter Engine&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Configure Policy &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\3.png&quot; alt=&quot;Configure Policy&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Exception Sites -&amp;gt; Edit &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\4.png&quot; alt=&quot;Exception Sites&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Add &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\5.png&quot; alt=&quot;Add&quot; /&gt;&lt;/li&gt;
+      &lt;li&gt;Agregar la URL base que se desee desbloquear &lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\6.png&quot; alt=&quot;Nueva URL&quot; /&gt;&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Solo es necesario agregar la URL base (el texto directamente a la izquierda de “.com”)
+  Ejemplo:
+      Si la URL es http://www.compresoresservicios.com/blog/ la base de esta sera compresoresservicios.com&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Si desea verificar que una URL este desbloqueada debe buscarla en el paso 2.C:&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Gateways\desbloquear_url_images\7.png&quot; alt=&quot;Búsqueda&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Si desea eliminar que una URL este desbloqueada debe buscarla en el paso 2.C y luego presionar “Delete”.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;observar-el-ancho-de-banda-usado-actualmente&quot;&gt;Observar el Ancho de banda usado Actualmente:&lt;/h2&gt;
+&lt;p&gt;Esta opción permite ver el ancho de banda usado por la respectiva sucursal.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ingresar en el Gateway en el cual se desee observar el Ancho de Banda&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seguir la ruta: 
+2.A Reports -&amp;gt; Performance and Resources -&amp;gt; Bandwidth Viewer &lt;img src=&quot;../../../../assets\screenshots\Gateways\ver_bandwidth_images\1.png&quot; alt=&quot;Bandwidth&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dependiendo del Gateway realizar:
+3.A CSBO01
+&lt;em&gt;Dejar solamente las casillas “enp1s0” estas representan la conexión con CANTV&lt;/em&gt; &lt;img src=&quot;../../../../assets\screenshots\Gateways\ver_bandwidth_images\2.png&quot; alt=&quot;CSBO01&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Notas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sent: Representa el ancho de banda de subida (Upload)&lt;/li&gt;
+  &lt;li&gt;Recv: Representa el ancho de banda de descarga (Download)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Ejemplos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Si el consumo es alto, la velocidad de conexión podría verse afectada.&lt;/li&gt;
+  &lt;li&gt;Si el consumo es bajo pero la velocidad de conexiona es lenta el problema puede ser directamente la conexión con el proveedor de Internet (CANTV, Digitel…).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;determinar-la-computadora-que-esta-consumiendo-mayor-ancho-de-banda&quot;&gt;Determinar la computadora que esta consumiendo mayor ancho de banda:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ingresar en el Gateway en el cual se desee observar el Ancho de Banda&lt;/li&gt;
+  &lt;li&gt;Seguir la ruta:
+    &lt;ol&gt;
+      &lt;li&gt;Reports-&amp;gt; User Managment -&amp;gt; Filter and Proxy Report&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Gateways\determinar_mayor_consumo_images\1.png&quot; alt=&quot;Bandwidth&quot; /&gt;&lt;/p&gt;
+
+    &lt;ol&gt;
+      &lt;li&gt;Top IPs&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;p&gt;&lt;em&gt;Obserar la IP que tenga mayor consumo&lt;/em&gt;
+&lt;img src=&quot;../../../../assets\screenshots\Gateways\determinar_mayor_consumo_images\2.png&quot; alt=&quot;Top IP&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Comparar la IP obtenida con la hoja de calculo “Mapa de Red.xlsx”, en la respectiva pagina&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Gateways\determinar_mayor_consumo_images\3.png&quot; alt=&quot;Top IP&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Gateways\determinar_mayor_consumo_images\4.png&quot; alt=&quot;Top IP&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Asdrubal Santander, Roy Calderon</name></author><summary type="html">Gateways
+Los Gateways o Puertas de Enlace, son la conexión primaria entre cada una de las empresas asociadas que se encuentren en diferentes localidades. Por lo tanto los cambios que se realicen en estos deberán ser acordes a cada sucursal.
+
+Las funciones principales son:
+
+
+  Regular el Internet para que sea utilizado solo en forma productiva para la empresa
+  Realizar una conexión virtual privada (VPN) entre sucursales
+  Monitoreo de las conexiones entrantes y salientes de cada sucursal
+
+
+En el conjunto de empresas de compresores existen estos Gateways:
+
+
+  
+    Compresores Servicios - Principal:
+    Nombre: CSBO01
+IP interna: 192.168.10.254
+URL: https://192.168.10.254:81
+  
+  
+    Compresores Servicios - Tariba:
+    Nombre: CSTA01
+IP interna: 192.168.12.254
+URL: https://192.168.12.254:81
+  
+  
+    Compresores Servicios - Valencia:
+    Nombre: CSVA01
+IP interna: 192.168.15.254
+URL: https://192.168.15.254:81
+  
+  
+    Refrisol - Principal:
+    Nombre: RSLC01
+IP interna: 192.168.13.254
+URL: https://192.168.13.254:81
+  
+  
+    Refrisol - Galpón:
+    Nombre: RSLC02
+IP interna: 192.168.14.254
+URL: https://192.168.14.254:81
+  
+  
+    Social Estrategia:
+    Nombre: SEBO01
+IP interna: 192.168.11.254
+URL: https://192.168.11.254:81
+  
+
+
+Desbloquear una URL:
+Esto no aplica a SEBO01 ya que ellos no tienen ningún tipo de bloqueo
+
+
+  
+    Ingresar en el Gateway al cual se le quiere desbloquear la URL 
+  
+  
+    Seguir la ruta:
+
+    
+      Gateway -&amp;gt; Content Filter and Proxy -&amp;gt; Content Filter Engine 
+      Configure Policy 
+      Exception Sites -&amp;gt; Edit 
+      Add 
+      Agregar la URL base que se desee desbloquear 
+    
+  
+
+
+Nota:
+
+
+  Solo es necesario agregar la URL base (el texto directamente a la izquierda de “.com”)
+  Ejemplo:
+      Si la URL es http://www.compresoresservicios.com/blog/ la base de esta sera compresoresservicios.com
+  
+    Si desea verificar que una URL este desbloqueada debe buscarla en el paso 2.C:
+
+    
+  
+  Si desea eliminar que una URL este desbloqueada debe buscarla en el paso 2.C y luego presionar “Delete”.
+
+
+Observar el Ancho de banda usado Actualmente:
+Esta opción permite ver el ancho de banda usado por la respectiva sucursal.
+
+
+  Ingresar en el Gateway en el cual se desee observar el Ancho de Banda
+  
+    Seguir la ruta: 
+2.A Reports -&amp;gt; Performance and Resources -&amp;gt; Bandwidth Viewer 
+  
+  Dependiendo del Gateway realizar:
+3.A CSBO01
+Dejar solamente las casillas “enp1s0” estas representan la conexión con CANTV 
+
+
+Notas:
+
+  Sent: Representa el ancho de banda de subida (Upload)
+  Recv: Representa el ancho de banda de descarga (Download)
+
+
+Ejemplos:
+
+  Si el consumo es alto, la velocidad de conexión podría verse afectada.
+  Si el consumo es bajo pero la velocidad de conexiona es lenta el problema puede ser directamente la conexión con el proveedor de Internet (CANTV, Digitel…).
+
+
+Determinar la computadora que esta consumiendo mayor ancho de banda:
+
+
+  Ingresar en el Gateway en el cual se desee observar el Ancho de Banda
+  Seguir la ruta:
+    
+      Reports-&amp;gt; User Managment -&amp;gt; Filter and Proxy Report
+    
+
+    
+
+    
+      Top IPs
+    
+
+    Obserar la IP que tenga mayor consumo
+
+  
+  
+    Comparar la IP obtenida con la hoja de calculo “Mapa de Red.xlsx”, en la respectiva pagina</summary></entry><entry><title type="html">Sistemas Informatica</title><link href="/documentacion/2017/01/14/Sistemas-Informatica.html" rel="alternate" type="text/html" title="&lt;DOC&gt; Sistemas Informatica" /><published>2017-01-14T05:03:18-04:00</published><updated>2017-01-14T05:03:18-04:00</updated><id>/documentacion/2017/01/14/Sistemas-Informatica</id><content type="html" xml:base="/documentacion/2017/01/14/Sistemas-Informatica.html">&lt;h1 id=&quot;lista-de-paginas-en-intranet&quot;&gt;&lt;a style=&quot;color:red;&quot;&gt;Lista de Paginas&lt;/a&gt; &lt;a style=&quot;color:DimGray;&quot;&gt;en INTRANET&lt;/a&gt;&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Las siguientes paginas solo funcionan dentro de la red de Compresores Servicios.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://192.168.10.3:9002/&quot; title=&quot;MESA DE AYUDA&quot;&gt;Mesa de ayuda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://192.168.10.1/Tecnologias/&quot; title=&quot;Documentación Tecnologías&quot;&gt;Documentación Tecnologías&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Roy Calderon</name></author><summary type="html">Lista de Paginas en INTRANET
+
+Las siguientes paginas solo funcionan dentro de la red de Compresores Servicios.
+
+
+
+
+  Mesa de ayuda
+  Documentación Tecnologías</summary></entry><entry><title type="html">Contraseñas</title><link href="/documentacion/2017/01/14/contrase%C3%B1as.html" rel="alternate" type="text/html" title="&lt;DOC&gt; Contraseñas" /><published>2017-01-14T05:03:18-04:00</published><updated>2017-01-14T05:03:18-04:00</updated><id>/documentacion/2017/01/14/contrase%C3%B1as</id><content type="html" xml:base="/documentacion/2017/01/14/contrase%C3%B1as.html">&lt;h1 id=&quot;contraseñas-informática&quot;&gt;Contraseñas Informática&lt;/h1&gt;
+&lt;p&gt;Para el almacenamiento de las contraseñas utilizadas por el departamento de informática se utiliza la herramienta &lt;a href=&quot;http://keepass.info/&quot;&gt;KeePass&lt;/a&gt;, el cual es un gestor de contraseñas offline. En esta base de datos podra encontrar todas las contraseñas relacionadas con el departamento de informatica.&lt;/p&gt;
+
+&lt;h2 id=&quot;base-de-datos&quot;&gt;Base de datos&lt;/h2&gt;
+&lt;p&gt;La base de datos se encuentra ubicada en&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;CSSC-SRV\IT\PAGINA_DOCUMENTACION\tecnologias\assets\keepass_contraseñas\IT_Passwords.kdbx
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../../../assets\screenshots\Contraseñas\1.png&quot; alt=&quot;Ruta&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Solo podra acceder a esta carpeta si tiene los permisos necesarios&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;contraseña-maestra&quot;&gt;Contraseña maestra&lt;/h2&gt;
+&lt;p&gt;Esta contraseña fue entregada a Gerencia General&lt;/p&gt;</content><author><name>Asdrubal Santander</name></author><summary type="html">Contraseñas Informática
+Para el almacenamiento de las contraseñas utilizadas por el departamento de informática se utiliza la herramienta KeePass, el cual es un gestor de contraseñas offline. En esta base de datos podra encontrar todas las contraseñas relacionadas con el departamento de informatica.
+
+Base de datos
+La base de datos se encuentra ubicada en
+CSSC-SRV\IT\PAGINA_DOCUMENTACION\tecnologias\assets\keepass_contraseñas\IT_Passwords.kdbx
+
+
+
+
+
+Solo podra acceder a esta carpeta si tiene los permisos necesarios
+
+Contraseña maestra
+Esta contraseña fue entregada a Gerencia General</summary></entry><entry><title type="html">Cambio de claves en Active Directory</title><link href="/tutorial/2017/01/13/doc-active-directory.html" rel="alternate" type="text/html" title="&lt;TUTO&gt; Cambio de claves en Active Directory" /><published>2017-01-13T05:03:18-04:00</published><updated>2017-01-13T05:03:18-04:00</updated><id>/tutorial/2017/01/13/doc-active-directory</id><content type="html" xml:base="/tutorial/2017/01/13/doc-active-directory.html">&lt;h1 id=&quot;active-directory&quot;&gt;Active directory&lt;/h1&gt;
+
+&lt;h2 id=&quot;cambio-de-claves&quot;&gt;Cambio de claves:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Conectarse al servidor con la cuenta de administrador, este servidor debe ser el cual contenga la cuenta con el problema de clave (Compresores o Refrisol)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Una vez dentro del servidor correspondiente, abrir el programa Active Directory&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;De esta manera&lt;/em&gt;
+ &lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/1.png&quot; alt=&quot;Programa Active Directory&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;em&gt;O de esta otra&lt;/em&gt;
+ &lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/2.png&quot; alt=&quot;Programa Active Directory&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Sobre el nombre de la empresa presionar segundo click, y presionar sobre Buscar&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/3.png&quot; alt=&quot;Herramienta de búsqueda&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Cambiar el campo ‘En:’ a “Todo el Directorio”&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/4.png&quot; alt=&quot;Todo el Directorio&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Escribir el nombre o parte del nombre y presionar Buscar&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/5.png&quot; alt=&quot;Restablecer Contraseña&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seleccionarlo&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/6.png&quot; alt=&quot;Selección del usuario&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Segundo Click en el usuario y luego Restablecer contraseña&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/7.png&quot; alt=&quot;Restablecer Contraseña&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Por ultimo colocar la nueva contraseña y Aceptar&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/8.png&quot; alt=&quot;Restablecer Contraseña&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/9.png&quot; alt=&quot;Restablecer Contraseña&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Notas:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;La nueva contraseña debe tener las siguientes características como mínimo:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;No deben contener partes significativas del nombre de cuenta del usuario o nombre completo.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Tener seis caracteres de longitud, como mínimo.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Estar compuesta por caracteres de tres de las siguientes categorías:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;Letras mayúsculas, de la A a la Z&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Letras minúsculas, de la a a la z&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Dígitos en base 10, de 0 a 9&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Caracteres no alfabéticos (por ejemplo, !, $, #, %)&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Verificar que la casilla “El usuario debe cambiar la contraseña en el siguiente inicio de sesión” este desmarcada&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;../../../../assets/screenshots/Doc-Active-Directory/10.png&quot; alt=&quot;Casilla Desmarcada&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Asdrubal Santander, Roy Calderon</name></author><summary type="html">Active directory
+
+Cambio de claves:
+
+
+  
+    Conectarse al servidor con la cuenta de administrador, este servidor debe ser el cual contenga la cuenta con el problema de clave (Compresores o Refrisol)
+  
+  
+    Una vez dentro del servidor correspondiente, abrir el programa Active Directory
+
+    De esta manera
+ 
+
+    O de esta otra
+ 
+  
+  
+    Sobre el nombre de la empresa presionar segundo click, y presionar sobre Buscar
+
+    
+  
+  
+    Cambiar el campo ‘En:’ a “Todo el Directorio”
+
+    
+  
+  
+    Escribir el nombre o parte del nombre y presionar Buscar
+
+    
+  
+  
+    Seleccionarlo
+
+    
+  
+  
+    Segundo Click en el usuario y luego Restablecer contraseña
+
+    
+  
+  
+    Por ultimo colocar la nueva contraseña y Aceptar
+
+    
+
+    
+  
+
+
+Notas:
+
+
+  
+    La nueva contraseña debe tener las siguientes características como mínimo:
+
+    
+      
+        No deben contener partes significativas del nombre de cuenta del usuario o nombre completo.
+      
+      
+        Tener seis caracteres de longitud, como mínimo.
+      
+      
+        Estar compuesta por caracteres de tres de las siguientes categorías:
+
+        
+          
+            Letras mayúsculas, de la A a la Z
+          
+          
+            Letras minúsculas, de la a a la z
+          
+          
+            Dígitos en base 10, de 0 a 9
+          
+          
+            Caracteres no alfabéticos (por ejemplo, !, $, #, %)
+          
+        
+      
+    
+  
+  
+    Verificar que la casilla “El usuario debe cambiar la contraseña en el siguiente inicio de sesión” este desmarcada</summary></entry></feed>
